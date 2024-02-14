@@ -1,7 +1,17 @@
-import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import NavBar from "./components/NavBar";
 
-function App() {
-  return <></>;
-}
 
+const App = () => {
+  return (
+    <div>
+      <NavBar />
+      <Routes>
+        <Route path="/"  />
+        <Route path="/planes" />
+      </Routes>
+    
+    </div>
+  );
+};
 export default App;
