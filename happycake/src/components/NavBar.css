@@ -1,0 +1,21 @@
+.star-line {
+  display: flex;
+}
+
+.icon {
+  margin-right: 8px;
+}
+.iconLog{
+  margin-right: 8px;
+}
+.bg-red {
+  background-color: rgb(174, 37, 37);
+  color: white;
+}
+
+.endLogo {
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
