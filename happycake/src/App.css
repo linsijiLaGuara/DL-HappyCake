@@ -1,0 +1,15 @@
+/* App.css (o tu archivo de estilos global) */
+body {
+    background-image: linear-gradient(to right top, #e6de87, #efe29b, #f6e7af, #fbecc3, #fef2d7, #fef2d7, #fef2d7, #fef2d7, #fbecc3, #f6e7af, #efe29b, #e6de87);
+    margin: 0;
+    padding: 0;
+    font-family: cursive; 
+  }
+  
+  #root {
+    margin: 0;
+    text-align: center;
+  }
+  
+
+  
