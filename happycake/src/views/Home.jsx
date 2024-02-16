@@ -1,11 +1,20 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Card from "react-bootstrap/Card";
+import imgPoke from "../assets/img/ponkelindo.jpg";
+import './Home.css'
 
 export const Home = (props) => {
-  return(
-    <>
-    <h1>Bienvenido</h1>
-    </>
+  return (
+    <div className="welcome-container">
+      <h1>🤗 Bienvenido 😍</h1>
+      
+      <div className="card-center">
+        <Card style={{ width: "18rem" }}>
+          <Card.Img variant="top" src={imgPoke} />
+        </Card>
+      </div>
+    </div>
   );
 };
 
