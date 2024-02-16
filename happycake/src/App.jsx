@@ -1,17 +1,16 @@
 import { Route, Routes } from "react-router-dom";
 import NavBar from "./components/NavBar";
-
-
+import { Home } from "./views/Home";
+import { Contact } from "./views/Contact";
 const App = () => {
   return (
-    <div>
+    <>
       <NavBar />
       <Routes>
-        <Route path="/"  />
-        <Route path="/planes" />
+        <Route path="/home" element={<Home />} />
+        <Route path="/contacto" element={<Contact />} />
       </Routes>
-    
-    </div>
+    </>
   );
 };
 export default App;

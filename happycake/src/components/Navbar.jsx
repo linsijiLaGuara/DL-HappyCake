@@ -17,14 +17,14 @@ const NavBar = () => {
         <Nav>
           <Link
             className="text-white ms-3 text-decoration-none star-line"
-            to="#home"
+            to="/home"
           >
             <FontAwesomeIcon icon={faHome} className="mr-2 icon" />
             <h6 className="m-0 align-self-center">Home</h6>
           </Link>
           <Link
             className="text-white ms-3 text-decoration-none star-line"
-            to="#contacto"
+            to="/contacto"
           >
             <FontAwesomeIcon icon={faAddressBook} className="mr-2 icon" />
             <h6 className="m-0 align-self-center">Contacto</h6>
