@@ -12,7 +12,7 @@ import "./NavBar.css";
 
 const NavBar = () => {
   return (
-    <Navbar className="bg-red" data-bs-theme="dark">
+    <Navbar className="bg-red text-fm" data-bs-theme="dark">
       <Container>
         <Nav>
           <Link
@@ -24,7 +24,7 @@ const NavBar = () => {
           </Link>
           <Link
             className="text-white ms-3 text-decoration-none star-line"
-            to="/contacto"
+            to="/contact"
           >
             <FontAwesomeIcon icon={faAddressBook} className="mr-2 icon" />
             <h6 className="m-0 align-self-center">Contacto</h6>
