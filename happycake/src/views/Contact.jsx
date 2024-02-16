@@ -19,7 +19,7 @@ export const Contact = (props) => {
             <Form.Label>Dejar tu comentario</Form.Label>
             <Form.Control placeholder="Comentario" as="textarea" rows={3} />
           </Form.Group>
-          <Button variant="primary" type="submit">
+          <Button variant="danger" type="submit">
             Enviar
           </Button>
         </Form>
